@@ -5,9 +5,9 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL=https://github.com/jow-/lucihttp.git
-PKG_SOURCE_DATE:=2018-04-17
-PKG_SOURCE_VERSION:=77a85c7232902ff765ed18cff31c5b19b7b2faca
-PKG_MIRROR_HASH:=34af584ceaaaddfba45b3b5b2d9c3c605eaed686d0ba3f17c45ff2021e32ab96
+PKG_SOURCE_DATE:=2019-07-05
+PKG_SOURCE_VERSION:=a34a17d501c0e23f0a91dd9d3e87697347c861ba
+PKG_MIRROR_HASH:=f08b526515b4a654e5529457da9d0676696170846288c55863dba087417a0483
 CMAKE_INSTALL:=1
 
 PKG_LICENSE:=ISC
@@ -22,8 +22,8 @@ include $(INCLUDE_DIR)/cmake.mk
 define Package/liblucihttp
   SECTION:=libs
   CATEGORY:=Libraries
-  ABI_VERSION:=$(PKG_VERSION)
   TITLE:=LuCI HTTP utility library
+  ABI_VERSION:=0
 endef
 
 define Package/liblucihttp-lua
@@ -40,9 +40,16 @@ CMAKE_OPTIONS = \
 	-DBUILD_LUA=$(if $(CONFIG_PACKAGE_liblucihttp-lua),ON,OFF) \
 	-DBUILD_TESTS=OFF
 
+define Build/InstallDev
+	$(INSTALL_DIR) $(1)/usr/lib
+	$(INSTALL_DIR) $(1)/usr/include
+	$(CP) $(PKG_INSTALL_DIR)/usr/lib/liblucihttp.so* $(1)/usr/lib/
+	$(CP) $(PKG_INSTALL_DIR)/usr/include/* $(1)/usr/include/
+endef
+
 define Package/liblucihttp/install
 	$(INSTALL_DIR) $(1)/usr/lib
-	$(CP) $(PKG_INSTALL_DIR)/usr/lib/liblucihttp.so $(1)/usr/lib/
+	$(CP) $(PKG_INSTALL_DIR)/usr/lib/liblucihttp.so.* $(1)/usr/lib/
 endef
 
 define Package/liblucihttp-lua/install

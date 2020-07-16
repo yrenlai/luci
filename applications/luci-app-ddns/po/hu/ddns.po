@@ -2,728 +2,927 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-ddns 2.4.0-1\n"
 "POT-Creation-Date: 2016-01-30 11:07+0100\n"
-"PO-Revision-Date: 2013-01-28 13:49+0200\n"
-"Last-Translator: Gábor <vargalex@freemail.hu>\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-03-28 04:46+0000\n"
+"Last-Translator: Gergő Szalka <kisszalimo@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsddns/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0-dev\n"
 
-msgid "&"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:996
+msgid "\"../\" not allowed in path for Security Reason."
+msgstr "Biztonsági okokból a „../” nem engedélyezett az útvonalban."
 
-msgid "-- custom --"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:297
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:326
+msgid "Add new services..."
+msgstr "Új szolgáltatások hozzáadása…"
 
-msgid "-- default --"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:446
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Speciális beállítások"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:965
 msgid "Allow non-public IP's"
-msgstr ""
+msgstr "Nem nyilvános IP-k engedélyezése"
 
-msgid "Applying changes"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:445
 msgid "Basic Settings"
-msgstr ""
+msgstr "Alapvető beállítások"
 
-msgid ""
-"Below a list of configuration tips for your system to run Dynamic DNS "
-"updates without limitations"
-msgstr ""
-
-msgid ""
-"Below is a list of configured DDNS configurations and their current state."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:742
 msgid "Bind Network"
-msgstr ""
+msgstr "Hálózat kötése"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:226
 msgid "Binding to a specific network not supported"
-msgstr ""
+msgstr "Egy bizonyos hálózathoz való kötés nem támogatott"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:253
 msgid ""
 "BusyBox's nslookup and Wget do not support to specify the IP version to use "
 "for communication with DDNS Provider!"
 msgstr ""
+"A BusyBox nslookup és Wget parancsai nem támogatják azt, hogy meghatározza "
+"az IP verziót DDNS szolgáltatással való kommunikációra!"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:264
 msgid ""
 "BusyBox's nslookup and hostip do not support to specify to use TCP instead "
 "of default UDP when requesting DNS server!"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:275
 msgid ""
 "BusyBox's nslookup in the current compiled version does not handle given DNS "
 "Servers correctly!"
 msgstr ""
 
-msgid "Casual users should not change this setting"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:332
+msgid "Cancel"
+msgstr "Mégse"
 
-msgid "Change provider"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:826
 msgid "Check Interval"
-msgstr ""
+msgstr "Ellenőrzési időköz"
 
-msgid "Collecting data..."
-msgstr ""
-
-msgid "Config error"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:27
 msgid "Configuration"
-msgstr ""
+msgstr "Beállítás"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:91
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:401
+msgid "Configuration Error"
+msgstr "Beállítási hiba"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:956
 msgid ""
 "Configure here the details for all Dynamic DNS services including this LuCI "
 "application."
 msgstr ""
+"Itt állítsa be a részleteket az összes dinamikus DNS-szolgáltatáshoz, "
+"beleértve ezt a LuCI alkalmazást is."
 
-msgid "Configure here the details for selected Dynamic DNS service."
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:345
+msgid "Create service"
+msgstr "Szolgáltatás létrehozása"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:978
+msgid "Current setting:"
+msgstr "Jelenlegi beállítás:"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:75
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:166
+msgid "Currently DDNS updates are not started at boot or on interface events."
 msgstr ""
+"Jelenleg a DDNS frissítések nincsenek elindítva a rendszerindításkor vagy a "
+"csatolóeseményeknél."
 
-msgid "Current setting"
-msgstr ""
-
-msgid ""
-"Currently DDNS updates are not started at boot or on interface events.<br /"
-">This is the default if you run DDNS scripts by yourself (i.e. via cron with "
-"force_interval set to '0')"
-msgstr ""
-
-msgid ""
-"Currently DDNS updates are not started at boot or on interface events.<br /"
-">You can start/stop each configuration here. It will run until next reboot."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:557
 msgid "Custom update script to be used for updating your DDNS Provider."
 msgstr ""
+"A DDNS-szolgáltató frissítéséhez használt egyéni frissítési parancsfájl."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:535
 msgid "Custom update-URL"
-msgstr "Egyéni update-URL"
+msgstr "Egyéni frissítési URL"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:556
 msgid "Custom update-script"
-msgstr ""
+msgstr "Egyéni frissítő parancsfájl"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:73
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:169
 msgid "DDNS Autostart disabled"
-msgstr ""
+msgstr "A DDNS automatikus indítása letiltva"
 
-msgid "DDNS Client Configuration"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:72
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:169
+msgid "DDNS Autostart enabled"
+msgstr "A DDNS automatikus indítása engedélyezve"
 
-msgid "DDNS Client Documentation"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:482
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:504
 msgid "DDNS Service provider"
-msgstr ""
+msgstr "DDNS-szolgáltató"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:185
+msgid "DDns"
+msgstr "DDns"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:430
+msgid "DDns Service"
+msgstr "DDns szolgáltatás"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:263
 msgid "DNS requests via TCP not supported"
-msgstr ""
+msgstr "a TCP-n keresztüli DNS-kérések nem támogatottak"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:765
 msgid "DNS-Server"
-msgstr ""
+msgstr "DNS-kiszolgáló"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:974
 msgid "Date format"
+msgstr "Dátumformátum"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:685
+msgid "Defines the Web page to read systems IP-Address from<br />"
 msgstr ""
 
-msgid "Defines the Web page to read systems IPv4-Address from"
-msgstr ""
-
-msgid "Defines the Web page to read systems IPv6-Address from"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:695
 msgid "Defines the interface to read systems IP-Address from"
 msgstr ""
+"Meghatározza azt a csatolót, amelyből a rendszerek IP-címeit olvasni kell"
 
-msgid "Defines the network to read systems IPv4-Address from"
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:676
+msgid "Defines the network to read systems IP-Address from"
 msgstr ""
+"Meghatározza azt a hálózatot, amelyből a rendszerek IP-címeit olvasni kell"
 
-msgid "Defines the network to read systems IPv6-Address from"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:635
 msgid ""
-"Defines the source to read systems IPv4-Address from, that will be send to "
-"the DDNS provider"
+"Defines the source to read systems IP-Address from, that will be send to the "
+"DDNS provider"
 msgstr ""
+"Meghatározza azt a forrást, amelyből a rendszerek IP-címeit olvasni kell, és "
+"amelyik elküldésre kerül a DDNS-szolgáltatónak"
 
-msgid ""
-"Defines the source to read systems IPv6-Address from, that will be send to "
-"the DDNS provider"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:471
 msgid "Defines which IP address 'IPv4/IPv6' is send to the DDNS provider"
 msgstr ""
+"Meghatározza, hogy mely „IPv4/IPv6” IP-cím legyen elküldve a DDNS-"
+"szolgáltatónak"
 
-msgid "Details for"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:990
+msgid "Directory contains Log files for each running section."
+msgstr "A könyvtár naplófájlokat tartalmaz minden egyes futó szakaszhoz."
 
-msgid "Directory contains Log files for each running section"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:984
 msgid ""
-"Directory contains PID and other status information for each running section"
+"Directory contains PID and other status information for each running section."
 msgstr ""
+"A könyvtár folyamatazonosítókat és egyéb állapotinformációkat tartalmaz "
+"minden egyes futó szakaszhoz."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:18
 msgid "Disabled"
-msgstr ""
+msgstr "Letiltva"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:576
 msgid "Domain"
-msgstr ""
+msgstr "Tartomány"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:151
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:7
+#: applications/luci-app-ddns/root/usr/share/luci/menu.d/luci-app-ddns.json:3
 msgid "Dynamic DNS"
 msgstr "Dinamikus DNS"
 
-msgid ""
-"Dynamic DNS allows that your router can be reached with a fixed hostname "
-"while having a dynamically changing IP address."
-msgstr ""
-"A dinamikus DNS lehetővé teszi, hogy a routere elérhető legyen egy fix host "
-"névvel akkor is ha dinamikusan változó IP címmel rendelkezik."
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:157
+msgid "Dynamic DNS Version"
+msgstr "Dinamikus DNS verziója"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:354
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:615
 msgid "Enable secure communication with DDNS provider"
-msgstr ""
+msgstr "Biztonságos kommunikáció engedélyezése a DDNS-szolgáltatóval"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:409
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:453
 msgid "Enabled"
-msgstr ""
+msgstr "Engedélyezve"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:809
 msgid "Error"
-msgstr ""
+msgstr "Hiba"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:891
 msgid "Error Retry Counter"
-msgstr ""
+msgstr "Hiba újrapróbálási számláló"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:902
 msgid "Error Retry Interval"
-msgstr ""
+msgstr "Hiba újrapróbálási időköze"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:713
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:724
 msgid "Event Network"
-msgstr ""
+msgstr "Eseményhálózat"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:686
+msgid "Example for IPv4: http://checkip.dyndns.com"
+msgstr "Példa IPv4-re: http://checkip.dyndns.com"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:687
+msgid "Example for IPv6: http://checkipv6.dyndns.com"
+msgstr "Példa IPv6-ra: http://checkipv6.dyndns.com"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:819
 msgid "File"
-msgstr ""
+msgstr "Fájl"
 
-msgid "File not found"
-msgstr ""
-
-msgid "File not found or empty"
-msgstr ""
-
-msgid ""
-"Follow this link<br />You will find more hints to optimize your system to "
-"run DDNS scripts with all options"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:961
 msgid "For detailed information about parameter settings look here."
 msgstr ""
+"A paraméterbeállításokkal kapcsolatos részletes információkért nézzen ide."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:976
 msgid "For supported codes look here"
-msgstr ""
+msgstr "A támogatott kódokért nézzen ide"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:754
 msgid "Force IP Version"
-msgstr ""
+msgstr "IP-verzió kényszerítése"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:252
 msgid "Force IP Version not supported"
-msgstr ""
+msgstr "Az IP verziójának kényszerítése nem támogatott"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:853
 msgid "Force Interval"
-msgstr ""
+msgstr "Kényszerítés időköze"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:778
 msgid "Force TCP on DNS"
-msgstr ""
+msgstr "TCP kényszerítése a DNS-en"
 
-msgid "Forced IP Version don't matched"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:790
 msgid "Format"
-msgstr ""
+msgstr "Formátum"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:767
 msgid "Format: IP or FQDN"
-msgstr ""
+msgstr "Formátum: IP vagy FQDN"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:231
 msgid ""
 "GNU Wget will use the IP of given network, cURL will use the physical "
 "interface."
 msgstr ""
+"A GNU Wget az adott hálózat IP-jét fogja használni, a cURL a fizikai "
+"csatolót fogja használni."
 
-msgid "Global Settings"
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:955
+msgid "Global Configuration"
+msgstr "Globális beállítások"
+
+#: applications/luci-app-ddns/root/usr/share/rpcd/acl.d/luci-app-ddns.json:3
+msgid "Grant access to ddns procedures"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:214
 msgid "HTTPS not supported"
-msgstr ""
+msgstr "A HTTPS nem támogatott"
 
-msgid "Hints"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:462
 msgid "Hostname/FQDN to validate, if IP update happen or necessary"
-msgstr ""
+msgstr "Ellenőrzendő gépnév vagy FQDN, ha IP-frissítés történik vagy szükséges"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:634
 msgid "IP address source"
-msgstr ""
+msgstr "IP-cím forrása"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:470
 msgid "IP address version"
-msgstr ""
+msgstr "IP-cím verziója"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:476
 msgid "IPv4-Address"
-msgstr ""
+msgstr "IPv4-cím"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:791
 msgid "IPv6 address must be given in square brackets"
-msgstr ""
+msgstr "Az IPv6-címet szögletes zárójelben kell megadni"
 
-msgid ""
-"IPv6 is currently not (fully) supported by this system<br />Please follow "
-"the instructions on OpenWrt's homepage to enable IPv6 support<br />or update "
-"your system to the latest OpenWrt Release"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:205
+msgid "IPv6 is currently not (fully) supported by this system"
+msgstr "Ez a rendszer jelenleg nem (teljesen) támogatja az IPv6-ot"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:204
 msgid "IPv6 not supported"
-msgstr ""
+msgstr "Az IPv6 nem támogatott"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:478
 msgid "IPv6-Address"
-msgstr ""
+msgstr "IPv6-cím"
 
-msgid "If both cURL and GNU Wget are installed, Wget is used by default."
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1009
+msgid ""
+"If Wget and cURL package are installed, Wget is used for communication by "
+"default."
 msgstr ""
+"Ha a Wget és a cURL csomag is telepítve van, akkor alapértelmezetten a Wget "
+"lesz használva a kommunikációnál."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:453
 msgid ""
 "If this service section is disabled it could not be started.<br />Neither "
 "from LuCI interface nor from console"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:287
 msgid "If using secure communication you should verify server certificates!"
 msgstr ""
+"Biztonságos kommunikáció használatakor ellenőriznie kell a kiszolgáló "
+"tanúsítványait!"
 
-msgid ""
-"If you want to send updates for IPv4 and IPv6 you need to define two "
-"separate Configurations i.e. 'myddns_ipv4' and 'myddns_ipv6'"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:219
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:233
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:245
 msgid ""
 "In some versions cURL/libcurl in OpenWrt is compiled without proxy support."
 msgstr ""
+"Az OpenWrt-ben lévő cURL/libcurl néhány verziója proxy-támogatás nélkül lett "
+"lefordítva."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:806
 msgid "Info"
+msgstr "Információ"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:153
+msgid "Information"
+msgstr "Információ"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:548
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:568
+msgid "Insert a Update Script OR a Update URL"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:289
 msgid ""
 "Install 'ca-certificates' package or needed certificates by hand into /etc/"
 "ssl/certs default directory"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:641
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:694
 msgid "Interface"
-msgstr "Interfész"
+msgstr "Csatoló"
 
-msgid ""
-"Interval to check for changed IP<br />Values below 5 minutes == 300 seconds "
-"are not supported"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:854
 msgid ""
 "Interval to force updates send to DDNS Provider<br />Setting this parameter "
-"to 0 will force the script to only run once<br />Values lower 'Check "
-"Interval' except '0' are not supported"
+"to 0 will force the script to only run once"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:844
+msgid "Interval unit to check for changed IP"
+msgstr "Időköz mértékegysége a megváltozott IP ellenőrzéséhez"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:881
+msgid "Interval unit to force updates send to DDNS Provider"
+msgstr ""
+"Időköz mértékegysége a DDNS-szolgáltatónak küldött frissítések "
+"kényszerítéséhez"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:958
 msgid "It is NOT recommended for casual users to change settings on this page."
 msgstr ""
+"NEM ajánlott az alkalmi felhasználóknak a beállítások megváltoztatása ezen "
+"az oldalon."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:414
 msgid "Last Update"
-msgstr ""
+msgstr "Utolsó frissítés"
 
-msgid "Loading"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:448
 msgid "Log File Viewer"
-msgstr ""
+msgstr "Naplófájl-megjelenítő"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:989
 msgid "Log directory"
-msgstr ""
+msgstr "Naplókönyvtár"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1001
 msgid "Log length"
-msgstr ""
+msgstr "Napló hossza"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:813
 msgid "Log to file"
-msgstr ""
+msgstr "Naplózás fájlba"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:800
 msgid "Log to syslog"
-msgstr ""
+msgstr "Naplózás a rendszernaplóba"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:397
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:461
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:29
 msgid "Lookup Hostname"
-msgstr ""
+msgstr "Gépnév keresése"
 
-msgid "NOT installed"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:314
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:391
+msgid "Name"
+msgstr "Név"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:227
 msgid ""
 "Neither GNU Wget with SSL nor cURL installed to select a network to use for "
 "communication."
 msgstr ""
+"Sem az SSL-lel rendelkező GNU Wget, sem a cURL nincs telepítve a "
+"kommunikációhoz használandó hálózat kiválasztásához."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:215
 msgid ""
 "Neither GNU Wget with SSL nor cURL installed to support secure updates via "
 "HTTPS protocol."
 msgstr ""
+"Sem az SSL-lel rendelkező GNU Wget, sem a cURL nincs telepítve a HTTPS "
+"protokollon keresztüli biztonságos frissítések támogatásához."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:639
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:675
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:31
 msgid "Network"
 msgstr "Hálózat"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:714
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:725
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:744
 msgid "Network on which the ddns-updater scripts will be started"
-msgstr ""
+msgstr "A hálózat, amelyen a DDNS-frissítő parancsfájlok el fognak indulni"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:93
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:418
 msgid "Never"
-msgstr ""
+msgstr "Soha"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:317
+msgid "New DDns Service…"
+msgstr "Új DDNS szolgáltatás…"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:414
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:28
 msgid "Next Update"
-msgstr ""
+msgstr "Következő frissítés"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:92
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:402
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:40
+msgid "No Data"
+msgstr "Nincs adat"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:286
 msgid "No certificates found"
-msgstr ""
+msgstr "Nem találhatók tanúsítványok"
 
-msgid "No data"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:805
 msgid "No logging"
-msgstr ""
+msgstr "Nincs naplózás"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:966
 msgid "Non-public and by default blocked IP's"
-msgstr ""
+msgstr "Nem nyilvános és alapértelmezetten blokkolt IP-k"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:95
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:436
+msgid "Not Running"
+msgstr "Nem fut"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:807
 msgid "Notice"
-msgstr ""
+msgstr "Figyelmeztetés"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1002
 msgid "Number of last lines stored in log files"
-msgstr ""
+msgstr "A naplófájlokban tárolt utolsó sorok száma"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:755
 msgid "OPTIONAL: Force the usage of pure IPv4/IPv6 only communication."
 msgstr ""
+"ELHAGYHATÓ: a tisztán csak IPv4/IPv6 kommunikáció használatának "
+"kényszerítése."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:779
 msgid "OPTIONAL: Force the use of TCP instead of default UDP on DNS requests."
 msgstr ""
+"ELHAGYHATÓ: TCP használatának kényszerítése az alapértelmezett UDP helyett a "
+"DNS-kéréseknél."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:743
 msgid "OPTIONAL: Network to use for communication"
-msgstr ""
+msgstr "ELHAGYHATÓ: a kommunikációhoz használandó hálózat"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:789
 msgid "OPTIONAL: Proxy-Server for detection and updates."
-msgstr ""
+msgstr "ELHAGYHATÓ: proxy-kiszolgáló a felismeréshez és a frissítésekhez."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:766
 msgid "OPTIONAL: Use non-default DNS-Server to detect 'Registered IP'."
 msgstr ""
+"ELHAGYHATÓ: nem alapértelmezett DNS-kiszolgáló használata a „Regisztrált IP” "
+"felismeréséhez."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:914
 msgid "On Error the script will retry the failed action after given time"
 msgstr ""
+"Hiba esetén a parancsfájl újrapróbálja a sikertelen műveletet a megadott idő "
+"után"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:892
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:903
 msgid "On Error the script will stop execution after given number of retrys"
 msgstr ""
+"Hiba esetén a parancsfájl leállítja a végrehajtást a megadott "
+"újrapróbálkozások száma után"
 
-msgid "OpenWrt Wiki"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:599
 msgid "Optional Encoded Parameter"
-msgstr ""
+msgstr "Elhagyható kódolt paraméterek"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:606
 msgid "Optional Parameter"
-msgstr ""
+msgstr "Elhagyható paraméter"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:600
 msgid "Optional: Replaces [PARAMENC] in Update-URL (URL-encoded)"
 msgstr ""
+"Elhagyható: lecseréli a [PARAMENC] értéket a frissítési URL-ben (URL-"
+"kódoltan)"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:607
 msgid "Optional: Replaces [PARAMOPT] in Update-URL (NOT URL-encoded)"
 msgstr ""
+"Elhagyható: lecseréli a [PARAMOPT] értéket a frissítési URL-ben (NEM URL-"
+"kódoltan)"
 
-msgid "Overview"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:788
 msgid "PROXY-Server"
-msgstr ""
+msgstr "Proxy-kiszolgáló"
 
-msgid "PROXY-Server not supported"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:591
 msgid "Password"
 msgstr "Jelszó"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:620
 msgid "Path to CA-Certificate"
-msgstr ""
+msgstr "Útvonal a CA-tanúsítványhoz"
 
-msgid "Please [Save & Apply] your changes first"
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:206
+msgid ""
+"Please follow the instructions on OpenWrt's homepage to enable IPv6 support"
 msgstr ""
+"Kövesse az OpenWrt honlapján lévő utasításokat az IPv6 támogatás "
+"engedélyezéséhez"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:948
 msgid "Please press [Read] button"
-msgstr ""
+msgstr "Nyomja meg a [Beolvasás] gombot"
 
-msgid "Please update to the current version!"
-msgstr ""
-
-msgid "Process ID"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:934
 msgid "Read / Reread log file"
-msgstr ""
+msgstr "Naplófájl olvasása vagy újraolvasása"
 
-msgid "Really change DDNS provider?"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:397
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:30
 msgid "Registered IP"
-msgstr ""
+msgstr "Regisztrált IP"
 
-msgid "Replaces [DOMAIN] in Update-URL"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:382
+msgid "Reload"
+msgstr "Újratöltés"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:362
+msgid "Reload this service"
+msgstr "A szolgáltatás újratöltése"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:592
 msgid "Replaces [PASSWORD] in Update-URL (URL-encoded)"
-msgstr ""
+msgstr "Lecseréli a [JELSZÓ] értéket a frissítési URL-ben (URL-kódoltan)"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:577
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:584
 msgid "Replaces [USERNAME] in Update-URL (URL-encoded)"
 msgstr ""
+"Lecseréli a [FELHASZNÁLÓNÉV] értéket a frissítési URL-ben (URL-kódoltan)"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:196
+msgid "Restart DDns"
+msgstr "DDns újraindítása"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:17
 msgid "Run once"
-msgstr ""
+msgstr "Futtatás egyszer"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:106
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:439
+msgid "Running"
+msgstr "Fut"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:642
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:704
 msgid "Script"
-msgstr ""
+msgstr "Parancsfájl"
 
-msgid "Show more"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:294
+msgid "Services"
+msgstr "Szolgáltatások"
 
-msgid "Software update required"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:68
+msgid "Start DDNS"
+msgstr "DDNS indítása"
 
-msgid "Specifying a DNS-Server is not supported"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:162
+msgid "State"
+msgstr "Állapot"
 
-msgid "Start"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:433
+msgid "Status"
+msgstr "Állapot"
 
-msgid "Start / Stop"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:983
 msgid "Status directory"
-msgstr ""
+msgstr "Állapotkönyvtár"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:381
+msgid "Stop"
+msgstr "Leállítás"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:68
+msgid "Stop DDNS"
+msgstr "DDNS leállítása"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:370
+msgid "Stop this service"
+msgstr "A szolgáltatás leállítása"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:19
 msgid "Stopped"
-msgstr ""
+msgstr "Leállítva"
 
-msgid ""
-"The currently installed 'ddns-scripts' package did not support all available "
-"settings."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:894
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:905
 msgid "The default setting of '0' will retry infinite."
-msgstr ""
+msgstr "Az alapértelmezett „0” beállítás végtelenszer fog újrapróbálkozni."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:320
+msgid "The service name is already used"
+msgstr "A szolgáltatás neve már használatban van"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:43
 msgid "There is no service configured."
-msgstr ""
+msgstr "Nincs beállított szolgáltatás."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:947
+msgid "This is the current content of the log file in"
+msgstr "Ez a naplófájl jelenlegi tartalma ebben:"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:76
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:167
+msgid ""
+"This is the default if you run DDNS scripts by yourself (i.e. via cron with "
+"force_interval set to '0')"
+msgstr ""
+"Ez az alapértelmezett, ha saját maga futtatja a DDNS parancsfájlokat (azaz "
+"cron használatával „0” értékre állított force_interval beállítással)"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:731
+msgid "This will be autoset to the selected interface"
+msgstr "Ez automatikusan be lesz állítva a kiválasztott csatolóhoz"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:447
 msgid "Timer Settings"
-msgstr ""
+msgstr "Időzítő beállításai"
 
-msgid "To change global settings click here"
-msgstr ""
-
-msgid "To use cURL activate this option."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:640
 msgid "URL"
 msgstr "URL"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:684
 msgid "URL to detect"
-msgstr ""
+msgstr "Felismerendő URL"
 
-msgid "Unknown error"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:94
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:418
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:38
+msgid "Unknown"
+msgstr "Ismeretlen"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:536
 msgid ""
 "Update URL to be used for updating your DDNS Provider.<br />Follow "
 "instructions you will find on their WEB page."
 msgstr ""
 
-msgid "Update error"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:614
 msgid "Use HTTP Secure"
-msgstr ""
+msgstr "HTTP biztonság használata"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1008
 msgid "Use cURL"
-msgstr ""
+msgstr "cURL használata"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:705
 msgid "User defined script to read systems IP-Address"
 msgstr ""
+"Felhasználó által meghatározott parancsfájl a rendszerek IP-címének "
+"olvasásához"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:583
 msgid "Username"
 msgstr "Felhasználónév"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:274
 msgid "Using specific DNS Server not supported"
-msgstr ""
+msgstr "Bizonyos DNS-kiszolgáló használata nem támogatott"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:836
+msgid "Values below 5 minutes == 300 seconds are not supported"
+msgstr "Az 5 perc == 300 másodperc alatti értékek nem támogatottak"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:873
+msgid "Values lower 'Check Interval' except '0' are not supported"
+msgstr ""
+"Az „Ellenőrzési időköz” értékénél alacsonyabb értékek a „0” kivételével nem "
+"támogatottak"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:16
 msgid "Verify"
-msgstr ""
+msgstr "Ellenőrzés"
 
-msgid "Version"
-msgstr ""
-
-msgid "Version Information"
-msgstr ""
-
-msgid "Waiting for changes to be applied..."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:808
 msgid "Warning"
-msgstr ""
+msgstr "Figyelmeztetés"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:818
 msgid ""
 "Writes detailed messages to log file. File will be truncated automatically."
 msgstr ""
+"Részletes üzeneteket ír a naplófájlba. A fájl automatikusan csonkolva lesz."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:801
 msgid ""
 "Writes log messages to syslog. Critical Errors will always be written to "
 "syslog."
 msgstr ""
+"Kiírja a naplóüzeneteket a rendszernaplóba. A kritikus hibák mindig a "
+"rendszernaplóba lesznek írva."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:278
 msgid ""
 "You should install 'bind-host' or 'knot-host' or 'drill' or 'hostip' "
 "package, if you need to specify a DNS server to detect your registered IP."
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:267
 msgid ""
 "You should install 'bind-host' or 'knot-host' or 'drill' package for DNS "
 "requests."
 msgstr ""
+"Telepítenie kell a „bind-host”, a „knot-host” vagy a „drill” csomagot a DNS-"
+"kérésekhez."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:255
 msgid "You should install 'wget' or 'curl' or 'uclient-fetch' package."
-msgstr ""
+msgstr "Telepítenie kell a „wget”, a „curl” vagy az „uclient-fetch” csomagot."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:217
 msgid ""
 "You should install 'wget' or 'curl' or 'uclient-fetch' with 'libustream-"
 "*ssl' package."
 msgstr ""
+"Telepítenie kell a „wget”, a „curl” vagy a „libustream-*ssl” csomaggal "
+"rendelkező „uclient-fetch” csomagot."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:229
 msgid "You should install 'wget' or 'curl' package."
-msgstr ""
+msgstr "Telepítenie kell a „wget” vagy a „curl” csomagot."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:243
 msgid ""
 "You should install 'wget' or 'uclient-fetch' package or replace libcurl."
 msgstr ""
+"Telepítenie kell a „wget” vagy az „uclient-fetch” csomagot, vagy cserélje le "
+"a „libcurl” csomagot."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:241
 msgid "cURL is installed, but libcurl was compiled without proxy support."
 msgstr ""
+"A cURL telepítve van, de a libcurl proxy-támogatás nélkül lett lefordítva."
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:240
 msgid "cURL without Proxy Support"
-msgstr ""
+msgstr "cURL proxy-támogatás nélkül"
 
-msgid "can not detect local IP. Please select a different Source combination"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:489
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:511
+msgid "custom"
+msgstr "egyéni"
 
-msgid "can not resolve host:"
-msgstr ""
-
-msgid "config error"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:887
 msgid "days"
-msgstr ""
+msgstr "nap"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:621
 msgid "directory or path/file"
-msgstr ""
+msgstr "könyvtár vagy útvonal/fájl"
 
-msgid "either url or script could be set"
-msgstr ""
-
-msgid "enable here"
-msgstr ""
-
-msgid "file or directory not found or not 'IGNORE'"
-msgstr ""
-
-msgid "help"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:849
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:886
 msgid "hours"
-msgstr ""
+msgstr "óra"
 
-msgid "installed"
-msgstr ""
-
-msgid "invalid FQDN / required - Sample"
-msgstr ""
-
-msgid "minimum value '0'"
-msgstr ""
-
-msgid "minimum value '1'"
-msgstr ""
-
-msgid "minimum value 5 minutes == 300 seconds"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:848
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:885
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:919
 msgid "minutes"
-msgstr ""
+msgstr "perc"
 
-msgid "missing / required"
-msgstr ""
-
-msgid "must be greater or equal 'Check Interval'"
-msgstr ""
-
-msgid "must start with 'http://'"
-msgstr ""
-
-msgid "nc (netcat) can not connect"
-msgstr ""
-
-msgid "never"
-msgstr ""
-
-msgid "no data"
-msgstr ""
-
-msgid "not found or not executable - Sample: '/path/to/script.sh'"
-msgstr ""
-
-msgid "nslookup can not resolve host"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:622
 msgid "or"
-msgstr ""
+msgstr "vagy"
 
-msgid "or higher"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:207
+msgid "or update your system to the latest OpenWrt Release"
+msgstr "vagy frissítse a rendszerét a legújabb OpenWrt kiadásra"
 
-msgid "please disable"
-msgstr ""
-
-msgid "please remove entry"
-msgstr ""
-
-msgid "please select 'IPv4' address version"
-msgstr ""
-
-msgid "please select 'IPv4' address version in"
-msgstr ""
-
-msgid "please set to 'default'"
-msgstr ""
-
-msgid "proxy port missing"
-msgstr ""
-
-msgid "required"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:847
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:918
 msgid "seconds"
-msgstr ""
+msgstr "másodperc"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:623
 msgid "to run HTTPS without verification of server certificates (insecure)"
 msgstr ""
+"HTTPS futtatásához a kiszolgáló tanúsítványainak ellenőrzése nélkül (nem "
+"biztonságos)"
 
-msgid "unknown error"
-msgstr ""
+#~ msgid "BusyBox's nslookup and Wget do not support to specify"
+#~ msgstr "A BusyBox nslookup és Wget programjai nem támogatják a megadását"
 
-msgid "unspecific error"
-msgstr ""
+#~ msgid "BusyBox's nslookup and hostip do not support to specify to use TCP"
+#~ msgstr ""
+#~ "A BusyBox nslookup és hostip programjai nem támogatják a használandó TCP "
+#~ "megadását"
 
-msgid "use hostname, FQDN, IPv4- or IPv6-Address"
-msgstr ""
+#~ msgid "BusyBox's nslookup in the current compiled version"
+#~ msgstr "A BusyBox nslookup programja a jelenleg lefordított verzióban"
+
+#~ msgid "Defines the Web page to read systems IP-Address from"
+#~ msgstr ""
+#~ "Meghatározza azt a weboldalt, amelyből a rendszerek IP-címeit olvasni kell"
+
+#~ msgid "Example for IPv4"
+#~ msgstr "Példa az IPv4-hez"
+
+#~ msgid "Example for IPv6"
+#~ msgstr "Példa az IPv6-hoz"
+
+#~ msgid "If this service section is disabled it could not be started."
+#~ msgstr ""
+#~ "Ha ez a szolgáltatási szakasz le van tiltva, akkor azt nem sikerült "
+#~ "elindítani."
+
+#~ msgid "Install 'ca-certificates' package or needed certificates"
+#~ msgstr ""
+#~ "Telepítse a „ca-certificates” csomagot vagy a szükséges tanúsítványokat"
+
+#~ msgid "Interval to force updates send to DDNS Provider"
+#~ msgstr "Időköz a DDNS-szolgáltatónak küldött frissítések kényszerítéséhez"
+
+#~ msgid "Update URL to be used for updating your DDNS Provider."
+#~ msgstr "A használandó frissítési URL a DDNS-szolgáltató frissítéséhez."
+
+#~ msgid ""
+#~ "You should install 'bind-host' or 'knot-host' or 'drill' or 'hostip' "
+#~ "package,"
+#~ msgstr ""
+#~ "Telepítenie kell a „bind-host”, a „knot-host”, a „drill” vagy a „hostip” "
+#~ "csomagot,"
+
+#~ msgid ""
+#~ "Dynamic DNS allows that your router can be reached with a fixed hostname "
+#~ "while having a dynamically changing IP address."
+#~ msgstr ""
+#~ "A dinamikus DNS lehetővé teszi, hogy a routere elérhető legyen egy fix "
+#~ "host névvel akkor is ha dinamikusan változó IP címmel rendelkezik."

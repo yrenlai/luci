@@ -2,728 +2,823 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-ddns 2.4.0-1\n"
 "POT-Creation-Date: 2016-01-30 11:07+0100\n"
-"PO-Revision-Date: 2013-10-05 17:19+0200\n"
-"Last-Translator: Kentaro <kentaro.matsuyama@gmail.com>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2020-06-27 14:41+0000\n"
+"Last-Translator: Satoru Yoshida <ramat@ram.ne.jp>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsddns/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Weblate 4.2-dev\n"
 
-msgid "&"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:996
+msgid "\"../\" not allowed in path for Security Reason."
+msgstr "セキュリティ上の理由でパスで「../」を使用できません。"
 
-msgid "-- custom --"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:297
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:326
+msgid "Add new services..."
+msgstr "新規サービスを追加..."
 
-msgid "-- default --"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:446
 msgid "Advanced Settings"
-msgstr ""
+msgstr "詳細設定"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:965
 msgid "Allow non-public IP's"
-msgstr ""
+msgstr "非公開の IP を許可"
 
-msgid "Applying changes"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:445
 msgid "Basic Settings"
-msgstr ""
+msgstr "基本設定"
 
-msgid ""
-"Below a list of configuration tips for your system to run Dynamic DNS "
-"updates without limitations"
-msgstr ""
-
-msgid ""
-"Below is a list of configured DDNS configurations and their current state."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:742
 msgid "Bind Network"
-msgstr ""
+msgstr "ネットワークをバインド"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:226
 msgid "Binding to a specific network not supported"
-msgstr ""
+msgstr "特定のネットワークへのバインドはサポートされていません"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:253
 msgid ""
 "BusyBox's nslookup and Wget do not support to specify the IP version to use "
 "for communication with DDNS Provider!"
 msgstr ""
+"BusyBox の nslookup と wget は、DDNS プロバイダーとの通信に使用する IP のバージョン指定をサポートしていません。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:264
 msgid ""
 "BusyBox's nslookup and hostip do not support to specify to use TCP instead "
 "of default UDP when requesting DNS server!"
 msgstr ""
+"BusyBox の nslookup と hostip は、DNSサーバーをリクエストする際にデフォルトの UDP の代わりに TCP "
+"を使用する指定をサポートしていません。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:275
 msgid ""
 "BusyBox's nslookup in the current compiled version does not handle given DNS "
 "Servers correctly!"
-msgstr ""
+msgstr "現在のコンパイル済バージョンの BusyBox の nslookup は、指定された DNS サーバーを正しく処理しません。"
 
-msgid "Casual users should not change this setting"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:332
+msgid "Cancel"
+msgstr "キャンセル"
 
-msgid "Change provider"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:826
 msgid "Check Interval"
-msgstr ""
+msgstr "チェック間隔"
 
-msgid "Collecting data..."
-msgstr ""
-
-msgid "Config error"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:27
 msgid "Configuration"
-msgstr ""
+msgstr "設定"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:91
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:401
+msgid "Configuration Error"
+msgstr "構成エラー"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:956
 msgid ""
 "Configure here the details for all Dynamic DNS services including this LuCI "
 "application."
+msgstr "ここでは、この LuCI アプリケーションを含むすべての DDNS サービスの詳細を構成します。"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:345
+msgid "Create service"
+msgstr "サービスを作成"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:978
+msgid "Current setting:"
+msgstr "現在の設定 :"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:75
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:166
+msgid "Currently DDNS updates are not started at boot or on interface events."
 msgstr ""
 
-msgid "Configure here the details for selected Dynamic DNS service."
-msgstr ""
-
-msgid "Current setting"
-msgstr ""
-
-msgid ""
-"Currently DDNS updates are not started at boot or on interface events.<br /"
-">This is the default if you run DDNS scripts by yourself (i.e. via cron with "
-"force_interval set to '0')"
-msgstr ""
-
-msgid ""
-"Currently DDNS updates are not started at boot or on interface events.<br /"
-">You can start/stop each configuration here. It will run until next reboot."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:557
 msgid "Custom update script to be used for updating your DDNS Provider."
-msgstr ""
+msgstr "DDNS プロバイダーの更新に使用するカスタム更新スクリプトです。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:535
 msgid "Custom update-URL"
 msgstr "手動アップデート-URL"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:556
 msgid "Custom update-script"
-msgstr ""
+msgstr "カスタム更新スクリプト"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:73
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:169
 msgid "DDNS Autostart disabled"
-msgstr ""
+msgstr "DDNS 自動開始が無効"
 
-msgid "DDNS Client Configuration"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:72
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:169
+msgid "DDNS Autostart enabled"
+msgstr "DDNS 自動開始が有効"
 
-msgid "DDNS Client Documentation"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:482
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:504
 msgid "DDNS Service provider"
-msgstr ""
+msgstr "DDNS サービス・プロバイダー"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:185
+msgid "DDns"
+msgstr "DDNS"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:430
+msgid "DDns Service"
+msgstr "DDNS サービス"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:263
 msgid "DNS requests via TCP not supported"
-msgstr ""
+msgstr "TCP 経由の DNS リクエストはサポートされていません"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:765
 msgid "DNS-Server"
-msgstr ""
+msgstr "DNS サーバー"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:974
 msgid "Date format"
-msgstr ""
+msgstr "日付形式"
 
-msgid "Defines the Web page to read systems IPv4-Address from"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:685
+msgid "Defines the Web page to read systems IP-Address from<br />"
+msgstr "システムの IP アドレス読み取り元の Webページ を定義<br />"
 
-msgid "Defines the Web page to read systems IPv6-Address from"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:695
 msgid "Defines the interface to read systems IP-Address from"
-msgstr ""
+msgstr "システムの IP アドレス読み取り元のインターフェースを定義 :"
 
-msgid "Defines the network to read systems IPv4-Address from"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:676
+msgid "Defines the network to read systems IP-Address from"
+msgstr "システムの IP アドレス読み取り元のネットワークを定義 :"
 
-msgid "Defines the network to read systems IPv6-Address from"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:635
 msgid ""
-"Defines the source to read systems IPv4-Address from, that will be send to "
-"the DDNS provider"
-msgstr ""
+"Defines the source to read systems IP-Address from, that will be send to the "
+"DDNS provider"
+msgstr "システムの IP アドレス読み取り元を定義します。それは、DDNS プロバイダーに送信されます。"
 
-msgid ""
-"Defines the source to read systems IPv6-Address from, that will be send to "
-"the DDNS provider"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:471
 msgid "Defines which IP address 'IPv4/IPv6' is send to the DDNS provider"
+msgstr "DDNS プロバイダーに送信される IP アドレス「IPv4/IPv6」を定義"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:990
+msgid "Directory contains Log files for each running section."
 msgstr ""
 
-msgid "Details for"
-msgstr ""
-
-msgid "Directory contains Log files for each running section"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:984
 msgid ""
-"Directory contains PID and other status information for each running section"
+"Directory contains PID and other status information for each running section."
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:18
 msgid "Disabled"
-msgstr ""
+msgstr "無効"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:576
 msgid "Domain"
-msgstr ""
+msgstr "ドメイン"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:151
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:7
+#: applications/luci-app-ddns/root/usr/share/luci/menu.d/luci-app-ddns.json:3
 msgid "Dynamic DNS"
 msgstr "ダイナミックDNS"
 
-msgid ""
-"Dynamic DNS allows that your router can be reached with a fixed hostname "
-"while having a dynamically changing IP address."
-msgstr ""
-"ダイナミックDNSを使用することで、IPアドレスが変更されても固定のホスト名を使っ"
-"てルーターにアクセスすることができます。"
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:157
+msgid "Dynamic DNS Version"
+msgstr "DDNS のバージョン"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:354
+msgid "Edit"
+msgstr "編集"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:615
 msgid "Enable secure communication with DDNS provider"
-msgstr ""
+msgstr "DDNS プロバイダーとの安全な通信を有効にする"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:409
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:453
 msgid "Enabled"
-msgstr ""
+msgstr "有効"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:809
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:891
 msgid "Error Retry Counter"
-msgstr ""
+msgstr "エラー再試行カウンター"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:902
 msgid "Error Retry Interval"
-msgstr ""
+msgstr "エラー再試行間隔"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:713
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:724
 msgid "Event Network"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:686
+msgid "Example for IPv4: http://checkip.dyndns.com"
+msgstr "IPv4 の例: http://checkip.dyndns.com"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:687
+msgid "Example for IPv6: http://checkipv6.dyndns.com"
+msgstr "IPv6 の例: http://checkipv6.dyndns.com"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:819
 msgid "File"
-msgstr ""
+msgstr "ファイル"
 
-msgid "File not found"
-msgstr ""
-
-msgid "File not found or empty"
-msgstr ""
-
-msgid ""
-"Follow this link<br />You will find more hints to optimize your system to "
-"run DDNS scripts with all options"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:961
 msgid "For detailed information about parameter settings look here."
-msgstr ""
+msgstr "パラメーター設定について詳しくはこちらをご覧ください。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:976
 msgid "For supported codes look here"
-msgstr ""
+msgstr "サポートされているコードについては、こちらをご覧ください"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:754
 msgid "Force IP Version"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:252
 msgid "Force IP Version not supported"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:853
 msgid "Force Interval"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:778
 msgid "Force TCP on DNS"
-msgstr ""
+msgstr "DNS で TCP を強制"
 
-msgid "Forced IP Version don't matched"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:790
 msgid "Format"
-msgstr ""
+msgstr "形式"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:767
 msgid "Format: IP or FQDN"
-msgstr ""
+msgstr "形式: IP または FQDN"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:231
 msgid ""
 "GNU Wget will use the IP of given network, cURL will use the physical "
 "interface."
+msgstr "GNU wget は指定されたネットワークの IP を使用し、cURL は物理インターフェースを使用します。"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:955
+msgid "Global Configuration"
+msgstr "グローバル構成"
+
+#: applications/luci-app-ddns/root/usr/share/rpcd/acl.d/luci-app-ddns.json:3
+msgid "Grant access to ddns procedures"
 msgstr ""
 
-msgid "Global Settings"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:214
 msgid "HTTPS not supported"
-msgstr ""
+msgstr "HTTPS はサポートされていません"
 
-msgid "Hints"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:462
 msgid "Hostname/FQDN to validate, if IP update happen or necessary"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:634
 msgid "IP address source"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:470
 msgid "IP address version"
-msgstr ""
+msgstr "IP アドレスのバージョン"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:476
 msgid "IPv4-Address"
-msgstr ""
+msgstr "IPv4 アドレス"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:791
 msgid "IPv6 address must be given in square brackets"
 msgstr ""
 
-msgid ""
-"IPv6 is currently not (fully) supported by this system<br />Please follow "
-"the instructions on OpenWrt's homepage to enable IPv6 support<br />or update "
-"your system to the latest OpenWrt Release"
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:205
+msgid "IPv6 is currently not (fully) supported by this system"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:204
 msgid "IPv6 not supported"
-msgstr ""
+msgstr "IPv6 はサポートされていません"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:478
 msgid "IPv6-Address"
-msgstr ""
+msgstr "IPv6 アドレス"
 
-msgid "If both cURL and GNU Wget are installed, Wget is used by default."
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1009
+msgid ""
+"If Wget and cURL package are installed, Wget is used for communication by "
+"default."
+msgstr "wget および cURL パッケージがインストールされている場合、通信にはデフォルトで wget が使用されます。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:453
 msgid ""
 "If this service section is disabled it could not be started.<br />Neither "
 "from LuCI interface nor from console"
-msgstr ""
+msgstr "このサービス・セクションが無効の場合、<br />LuCI インターフェースおよびコンソールのどちらからも開始できません"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:287
 msgid "If using secure communication you should verify server certificates!"
-msgstr ""
+msgstr "安全な通信を使用する場合は、サーバー証明書を検証する必要があります。"
 
-msgid ""
-"If you want to send updates for IPv4 and IPv6 you need to define two "
-"separate Configurations i.e. 'myddns_ipv4' and 'myddns_ipv6'"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:219
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:233
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:245
 msgid ""
 "In some versions cURL/libcurl in OpenWrt is compiled without proxy support."
-msgstr ""
+msgstr "一部のバージョンでは、OpenWrt の cURL/libcurl は、プロキシ・サポートなしでコンパイルされます。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:806
 msgid "Info"
-msgstr ""
+msgstr "情報"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:153
+msgid "Information"
+msgstr "情報"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:548
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:568
+msgid "Insert a Update Script OR a Update URL"
+msgstr "更新スクリプトを挿入または URL を更新"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:289
 msgid ""
 "Install 'ca-certificates' package or needed certificates by hand into /etc/"
 "ssl/certs default directory"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:641
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:694
 msgid "Interface"
 msgstr "インターフェース"
 
-msgid ""
-"Interval to check for changed IP<br />Values below 5 minutes == 300 seconds "
-"are not supported"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:854
 msgid ""
 "Interval to force updates send to DDNS Provider<br />Setting this parameter "
-"to 0 will force the script to only run once<br />Values lower 'Check "
-"Interval' except '0' are not supported"
+"to 0 will force the script to only run once"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:844
+msgid "Interval unit to check for changed IP"
+msgstr "変更された IP のチェック間隔の単位"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:881
+msgid "Interval unit to force updates send to DDNS Provider"
+msgstr ""
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:958
 msgid "It is NOT recommended for casual users to change settings on this page."
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:414
 msgid "Last Update"
-msgstr ""
+msgstr "最終更新"
 
-msgid "Loading"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:448
 msgid "Log File Viewer"
-msgstr ""
+msgstr "ログファイル・ビューア"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:989
 msgid "Log directory"
-msgstr ""
+msgstr "ログ・ディレクトリ"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1001
 msgid "Log length"
-msgstr ""
+msgstr "ログの長さ"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:813
 msgid "Log to file"
-msgstr ""
+msgstr "ファイルへログを記録"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:800
 msgid "Log to syslog"
-msgstr ""
+msgstr "syslog へログを記録"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:397
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:461
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:29
 msgid "Lookup Hostname"
-msgstr ""
+msgstr "ホスト名をルックアップ"
 
-msgid "NOT installed"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:314
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:391
+msgid "Name"
+msgstr "名前"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:227
 msgid ""
 "Neither GNU Wget with SSL nor cURL installed to select a network to use for "
 "communication."
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:215
 msgid ""
 "Neither GNU Wget with SSL nor cURL installed to support secure updates via "
 "HTTPS protocol."
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:639
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:675
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:31
 msgid "Network"
 msgstr "ネットワーク"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:714
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:725
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:744
 msgid "Network on which the ddns-updater scripts will be started"
-msgstr ""
+msgstr "ddns-updater スクリプトが開始されるネットワーク"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:93
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:418
 msgid "Never"
-msgstr ""
+msgstr "無し"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:317
+msgid "New DDns Service…"
+msgstr "新規 DDNS サービス…"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:414
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:28
 msgid "Next Update"
-msgstr ""
+msgstr "次の更新"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:92
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:402
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:40
+msgid "No Data"
+msgstr "データがありません"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:286
 msgid "No certificates found"
-msgstr ""
+msgstr "証明書が見つかりません"
 
-msgid "No data"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:805
 msgid "No logging"
-msgstr ""
+msgstr "ログを記録しない"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:966
 msgid "Non-public and by default blocked IP's"
 msgstr ""
 
-msgid "Notice"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:95
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:436
+msgid "Not Running"
+msgstr "実行されていません"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:807
+msgid "Notice"
+msgstr "注意"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1002
 msgid "Number of last lines stored in log files"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:755
 msgid "OPTIONAL: Force the usage of pure IPv4/IPv6 only communication."
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:779
 msgid "OPTIONAL: Force the use of TCP instead of default UDP on DNS requests."
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:743
 msgid "OPTIONAL: Network to use for communication"
-msgstr ""
+msgstr "オプション : 通信に使用するネットワーク"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:789
 msgid "OPTIONAL: Proxy-Server for detection and updates."
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:766
 msgid "OPTIONAL: Use non-default DNS-Server to detect 'Registered IP'."
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:914
 msgid "On Error the script will retry the failed action after given time"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:892
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:903
 msgid "On Error the script will stop execution after given number of retrys"
 msgstr ""
 
-msgid "OpenWrt Wiki"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:599
 msgid "Optional Encoded Parameter"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:606
 msgid "Optional Parameter"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:600
 msgid "Optional: Replaces [PARAMENC] in Update-URL (URL-encoded)"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:607
 msgid "Optional: Replaces [PARAMOPT] in Update-URL (NOT URL-encoded)"
 msgstr ""
 
-msgid "Overview"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:788
 msgid "PROXY-Server"
-msgstr ""
+msgstr "プロキシ・サーバー"
 
-msgid "PROXY-Server not supported"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:591
 msgid "Password"
 msgstr "パスワード"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:620
 msgid "Path to CA-Certificate"
-msgstr ""
+msgstr "CA 証明書へのパス"
 
-msgid "Please [Save & Apply] your changes first"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:206
+msgid ""
+"Please follow the instructions on OpenWrt's homepage to enable IPv6 support"
+msgstr "IPv6 サポートを有効にするには、OpenWrt のホームページの指示に従ってください"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:948
 msgid "Please press [Read] button"
-msgstr ""
+msgstr "[読込] ボタンを押してください"
 
-msgid "Please update to the current version!"
-msgstr ""
-
-msgid "Process ID"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:934
 msgid "Read / Reread log file"
-msgstr ""
+msgstr "ログファイルの読み込み/再読み込み"
 
-msgid "Really change DDNS provider?"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:397
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:30
 msgid "Registered IP"
-msgstr ""
+msgstr "登録済み IP"
 
-msgid "Replaces [DOMAIN] in Update-URL"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:382
+msgid "Reload"
+msgstr "リロード"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:362
+msgid "Reload this service"
+msgstr "このサービスをリロード"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:592
 msgid "Replaces [PASSWORD] in Update-URL (URL-encoded)"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:577
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:584
 msgid "Replaces [USERNAME] in Update-URL (URL-encoded)"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:196
+msgid "Restart DDns"
+msgstr "DDNS を再起動"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:17
 msgid "Run once"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:106
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:439
+msgid "Running"
+msgstr "実行中"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:642
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:704
 msgid "Script"
-msgstr ""
+msgstr "スクリプト"
 
-msgid "Show more"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:294
+msgid "Services"
+msgstr "サービス"
 
-msgid "Software update required"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:68
+msgid "Start DDNS"
+msgstr "DDNS を開始"
 
-msgid "Specifying a DNS-Server is not supported"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:162
+msgid "State"
+msgstr "状態"
 
-msgid "Start"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:433
+msgid "Status"
+msgstr "ステータス"
 
-msgid "Start / Stop"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:983
 msgid "Status directory"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:381
+msgid "Stop"
+msgstr "停止"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:68
+msgid "Stop DDNS"
+msgstr "DDNS を停止"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:370
+msgid "Stop this service"
+msgstr "このサービスを停止"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:19
 msgid "Stopped"
-msgstr ""
+msgstr "停止済"
 
-msgid ""
-"The currently installed 'ddns-scripts' package did not support all available "
-"settings."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:894
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:905
 msgid "The default setting of '0' will retry infinite."
-msgstr ""
+msgstr "デフォルトのゼロを設定すると、無限に再試行します。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:320
+msgid "The service name is already used"
+msgstr "サービス名はすでに使用されています"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:43
 msgid "There is no service configured."
+msgstr "構成済のサービスはありません。"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:947
+msgid "This is the current content of the log file in"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:76
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:167
+msgid ""
+"This is the default if you run DDNS scripts by yourself (i.e. via cron with "
+"force_interval set to '0')"
+msgstr ""
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:731
+msgid "This will be autoset to the selected interface"
+msgstr "これは選択したインターフェースに自動設定されます"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:447
 msgid "Timer Settings"
-msgstr ""
+msgstr "タイマー設定"
 
-msgid "To change global settings click here"
-msgstr ""
-
-msgid "To use cURL activate this option."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:640
 msgid "URL"
 msgstr "URL"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:684
 msgid "URL to detect"
-msgstr ""
+msgstr "検出する URL"
 
-msgid "Unknown error"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:94
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:418
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/status/include/70_ddns.js:38
+msgid "Unknown"
+msgstr "不明"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:536
 msgid ""
 "Update URL to be used for updating your DDNS Provider.<br />Follow "
 "instructions you will find on their WEB page."
 msgstr ""
 
-msgid "Update error"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:614
 msgid "Use HTTP Secure"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1008
 msgid "Use cURL"
-msgstr ""
+msgstr "cURL を使用"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:705
 msgid "User defined script to read systems IP-Address"
-msgstr ""
+msgstr "システムの IP アドレスを読み取るユーザー定義スクリプト"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:583
 msgid "Username"
 msgstr "ユーザー名"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:274
 msgid "Using specific DNS Server not supported"
-msgstr ""
+msgstr "特定の DNS サーバーの使用はサポートされていません"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:836
+msgid "Values below 5 minutes == 300 seconds are not supported"
+msgstr "5分 (300秒) 未満の値はサポートされていません"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:873
+msgid "Values lower 'Check Interval' except '0' are not supported"
+msgstr "チェック間隔より小さい値はサポートされていません（ゼロを除く）"
+
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:16
 msgid "Verify"
-msgstr ""
+msgstr "検証"
 
-msgid "Version"
-msgstr ""
-
-msgid "Version Information"
-msgstr ""
-
-msgid "Waiting for changes to be applied..."
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:808
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:818
 msgid ""
 "Writes detailed messages to log file. File will be truncated automatically."
-msgstr ""
+msgstr "詳細メッセージをログファイルに書き込みます。 ファイルは自動的に切り捨てられます。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:801
 msgid ""
 "Writes log messages to syslog. Critical Errors will always be written to "
 "syslog."
-msgstr ""
+msgstr "ログメッセージを syslog に書き込みます。 重大なエラーは常に syslog に書き込まれます。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:278
 msgid ""
 "You should install 'bind-host' or 'knot-host' or 'drill' or 'hostip' "
 "package, if you need to specify a DNS server to detect your registered IP."
 msgstr ""
+"登録済 IP を検出するため DNS サーバーを指定する必要がある場合は、bind-host、knot-host、drill または hostip "
+"パッケージをインストールする必要があります。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:267
 msgid ""
 "You should install 'bind-host' or 'knot-host' or 'drill' package for DNS "
 "requests."
-msgstr ""
+msgstr "DNS リクエストするには、bind-host、knot-host または drill パッケージをインストールする必要があります。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:255
 msgid "You should install 'wget' or 'curl' or 'uclient-fetch' package."
-msgstr ""
+msgstr "wget、curl または uclient-fetch パッケージをインストールする必要があります。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:217
 msgid ""
 "You should install 'wget' or 'curl' or 'uclient-fetch' with 'libustream-"
 "*ssl' package."
 msgstr ""
+"libustream-*ssl パッケージとともに wget、curl または uclient-fetch パッケージをインストールする必要があります。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:229
 msgid "You should install 'wget' or 'curl' package."
-msgstr ""
+msgstr "wget または curl パッケージをインストールする必要があります。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:243
 msgid ""
 "You should install 'wget' or 'uclient-fetch' package or replace libcurl."
-msgstr ""
+msgstr "wget または uclient-fetch パッケージをインストールするか、または libcurl を置き換える必要があります。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:241
 msgid "cURL is installed, but libcurl was compiled without proxy support."
-msgstr ""
+msgstr "cURL はインストール済ですが、libcurl はプロキシ・サポートなしでコンパイルされています。"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:240
 msgid "cURL without Proxy Support"
-msgstr ""
+msgstr "プロキシ・サポートなしの cURL"
 
-msgid "can not detect local IP. Please select a different Source combination"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:489
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:511
+msgid "custom"
+msgstr "カスタム"
 
-msgid "can not resolve host:"
-msgstr ""
-
-msgid "config error"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:887
 msgid "days"
 msgstr ""
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:621
 msgid "directory or path/file"
-msgstr ""
+msgstr "ディレクトリまたはパス/ファイル"
 
-msgid "either url or script could be set"
-msgstr ""
-
-msgid "enable here"
-msgstr ""
-
-msgid "file or directory not found or not 'IGNORE'"
-msgstr ""
-
-msgid "help"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:849
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:886
 msgid "hours"
-msgstr ""
+msgstr "時間"
 
-msgid "installed"
-msgstr ""
-
-msgid "invalid FQDN / required - Sample"
-msgstr ""
-
-msgid "minimum value '0'"
-msgstr ""
-
-msgid "minimum value '1'"
-msgstr ""
-
-msgid "minimum value 5 minutes == 300 seconds"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:848
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:885
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:919
 msgid "minutes"
-msgstr ""
+msgstr "分"
 
-msgid "missing / required"
-msgstr ""
-
-msgid "must be greater or equal 'Check Interval'"
-msgstr ""
-
-msgid "must start with 'http://'"
-msgstr ""
-
-msgid "nc (netcat) can not connect"
-msgstr ""
-
-msgid "never"
-msgstr ""
-
-msgid "no data"
-msgstr ""
-
-msgid "not found or not executable - Sample: '/path/to/script.sh'"
-msgstr ""
-
-msgid "nslookup can not resolve host"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:622
 msgid "or"
-msgstr ""
+msgstr "または"
 
-msgid "or higher"
-msgstr ""
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:207
+msgid "or update your system to the latest OpenWrt Release"
+msgstr "またはシステムを最新の OpenWrt リリースに更新します"
 
-msgid "please disable"
-msgstr ""
-
-msgid "please remove entry"
-msgstr ""
-
-msgid "please select 'IPv4' address version"
-msgstr ""
-
-msgid "please select 'IPv4' address version in"
-msgstr ""
-
-msgid "please set to 'default'"
-msgstr ""
-
-msgid "proxy port missing"
-msgstr ""
-
-msgid "required"
-msgstr ""
-
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:847
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:918
 msgid "seconds"
-msgstr ""
+msgstr "秒"
 
+#: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:623
 msgid "to run HTTPS without verification of server certificates (insecure)"
 msgstr ""
 
-msgid "unknown error"
-msgstr ""
-
-msgid "unspecific error"
-msgstr ""
-
-msgid "use hostname, FQDN, IPv4- or IPv6-Address"
-msgstr ""
+#~ msgid ""
+#~ "Dynamic DNS allows that your router can be reached with a fixed hostname "
+#~ "while having a dynamically changing IP address."
+#~ msgstr ""
+#~ "ダイナミックDNSを使用することで、IPアドレスが変更されても固定のホスト名を"
+#~ "使ってルーターにアクセスすることができます。"

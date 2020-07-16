@@ -4,13 +4,17 @@
 local fs        = require("nixio.fs")
 local uci       = require("luci.model.uci").cursor()
 local util      = require("luci.util")
-local date      = require("luci.http.protocol.date")
 local res_input = "/usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv"
 local res_dir   = fs.dirname(res_input)
 local dump      = util.ubus("network.interface", "dump", {})
 local plug_cnt  = tonumber(luci.sys.exec("env -i /usr/sbin/dnscrypt-proxy --version | grep 'Support for plugins: present' | wc -l"))
 local res_list  = {}
 local url       = "https://raw.githubusercontent.com/dyne/dnscrypt-proxy/master/dnscrypt-resolvers.csv"
+
+local _, date = pcall(require, "luci.http.date")
+if not date then
+	_, date = pcall(require, "luci.http.protocol.date")
+end
 
 if not fs.access(res_input) then
 	if not fs.access("/lib/libustream-ssl.so") then
@@ -55,7 +59,7 @@ m = Map("dnscrypt-proxy", translate("DNSCrypt-Proxy"),
 	translate("Configuration of the DNSCrypt-Proxy package. ")
 	.. translatef("For further information "
 	.. "<a href=\"%s\" target=\"_blank\">"
-	.. "see the wiki online</a>", "https://wiki.openwrt.org/inbox/dnscrypt"))
+	.. "see the wiki online</a>", "https://openwrt.org/docs/guide-user/services/dns/dnscrypt"))
 m:chain("dhcp")
 
 function m.on_after_commit(self)
@@ -142,7 +146,7 @@ if not fs.access("/etc/resolv-crypt.conf") or fs.stat("/etc/resolv-crypt.conf").
 		translate("Create '/etc/resolv-crypt.conf' with 'options timeout:1' to reduce DNS upstream timeouts with multiple DNSCrypt instances.<br />")
 		.. translatef("For further information "
 		.. "<a href=\"%s\" target=\"_blank\">"
-		.. "see the wiki online</a>", "https://wiki.openwrt.org/inbox/dnscrypt"))
+		.. "see the wiki online</a>", "https://openwrt.org/docs/guide-user/services/dns/dnscrypt"))
 	btn2.inputtitle = translate("Create Config File")
 	btn2.inputstyle = "apply"
 	btn2.disabled = false
